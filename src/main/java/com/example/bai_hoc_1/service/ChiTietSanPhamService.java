@@ -11,7 +11,7 @@ public interface ChiTietSanPhamService {
 
     Boolean saveChiTietSanPham(ChiTietSanPham chiTietSanPham);
 
-    Boolean updateChiTietSanPham(ChiTietSanPham ChiTietSanPham);
+    Boolean updateChiTietSanPham(ChiTietSanPham chiTietSanPham);
 
     Boolean deleteById(String id);
 }
