@@ -20,7 +20,7 @@ public class TaiKhoanServiceImpl implements TaiKhoanService {
     }
 
     @Override
-    public TaiKhoan getOneTaiKhoan(String id) {
+    public TaiKhoan getOneTaiKhoan(String id)  {
         return taiKhoanRepository.findById(id).orElse(null);
     }
 
